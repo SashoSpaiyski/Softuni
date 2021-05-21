@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaAdvanced.iml" filepath="$PROJECT_DIR$/JavaAdvanced.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultidimentionalArrays/MultidimentionalArrays.iml" filepath="$PROJECT_DIR$/MultidimentionalArrays/MultidimentionalArrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/StacksAndQueues/StacksAndQueues.iml" filepath="$PROJECT_DIR$/StacksAndQueues/StacksAndQueues.iml" />
     </modules>
   </component>
