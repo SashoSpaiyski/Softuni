@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/01.JavaAdvanced.iml" filepath="$PROJECT_DIR$/01.JavaAdvanced.iml" />
       <module fileurl="file://$PROJECT_DIR$/01.StacksAndQueues/01.StacksAndQueues.iml" filepath="$PROJECT_DIR$/01.StacksAndQueues/01.StacksAndQueues.iml" />
       <module fileurl="file://$PROJECT_DIR$/02.MultidimentionalArrays/02.MultidimentionalArrays.iml" filepath="$PROJECT_DIR$/02.MultidimentionalArrays/02.MultidimentionalArrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03.SetsAndMaps/03.SetsAndMaps.iml" filepath="$PROJECT_DIR$/03.SetsAndMaps/03.SetsAndMaps.iml" />
     </modules>
   </component>
 </project>
