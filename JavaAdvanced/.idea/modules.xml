@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/03.SetsAndMaps/03.SetsAndMaps.iml" filepath="$PROJECT_DIR$/03.SetsAndMaps/03.SetsAndMaps.iml" />
       <module fileurl="file://$PROJECT_DIR$/04.StreamsFilesAndDirectories/04.StreamsFilesAndDirectories.iml" filepath="$PROJECT_DIR$/04.StreamsFilesAndDirectories/04.StreamsFilesAndDirectories.iml" />
       <module fileurl="file://$PROJECT_DIR$/05.FunctionalProgramming/05.FunctionalProgramming.iml" filepath="$PROJECT_DIR$/05.FunctionalProgramming/05.FunctionalProgramming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06.DefiningClasses/06.DefiningClasses.iml" filepath="$PROJECT_DIR$/06.DefiningClasses/06.DefiningClasses.iml" />
     </modules>
   </component>
 </project>
