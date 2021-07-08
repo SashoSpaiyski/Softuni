@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/05.FunctionalProgramming/05.FunctionalProgramming.iml" filepath="$PROJECT_DIR$/05.FunctionalProgramming/05.FunctionalProgramming.iml" />
       <module fileurl="file://$PROJECT_DIR$/06.DefiningClasses/06.DefiningClasses.iml" filepath="$PROJECT_DIR$/06.DefiningClasses/06.DefiningClasses.iml" />
       <module fileurl="file://$PROJECT_DIR$/07.Workshop/07.Workshop.iml" filepath="$PROJECT_DIR$/07.Workshop/07.Workshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08.Generics/08.Generics.iml" filepath="$PROJECT_DIR$/08.Generics/08.Generics.iml" />
     </modules>
   </component>
 </project>
