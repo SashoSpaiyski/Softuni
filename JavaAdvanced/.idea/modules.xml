@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/06.DefiningClasses/06.DefiningClasses.iml" filepath="$PROJECT_DIR$/06.DefiningClasses/06.DefiningClasses.iml" />
       <module fileurl="file://$PROJECT_DIR$/07.Workshop/07.Workshop.iml" filepath="$PROJECT_DIR$/07.Workshop/07.Workshop.iml" />
       <module fileurl="file://$PROJECT_DIR$/08.Generics/08.Generics.iml" filepath="$PROJECT_DIR$/08.Generics/08.Generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09.IteratorsAndComparators/09.IteratorsAndComparators.iml" filepath="$PROJECT_DIR$/09.IteratorsAndComparators/09.IteratorsAndComparators.iml" />
     </modules>
   </component>
 </project>
