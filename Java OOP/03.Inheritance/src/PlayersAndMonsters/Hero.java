@@ -1,0 +1,31 @@
+package PlayersAndMonsters;
+
+public class Hero {
+    //fields
+    private String username;
+    private int level;
+
+    //constructor
+    public Hero(String username, int level) {
+        this.username = username;
+        this.level = level;
+    }
+
+    //getter
+    public String getUsername() {
+        return this.username;
+    }
+
+    public int getLevel() {
+        return this.level;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("Type: %s Username: %s Level: %s",
+                this.getClass().getName(),
+                this.getUsername(),
+                this.getLevel());
+    }
+
+}
