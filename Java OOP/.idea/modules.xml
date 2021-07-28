@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/03.Inheritance/03.Inheritance.iml" filepath="$PROJECT_DIR$/03.Inheritance/03.Inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/04.Polymorphism/04.Polymorphism.iml" filepath="$PROJECT_DIR$/04.Polymorphism/04.Polymorphism.iml" />
       <module fileurl="file://$PROJECT_DIR$/05.Solid/05.Solid.iml" filepath="$PROJECT_DIR$/05.Solid/05.Solid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06.Reflection/06.Reflection.iml" filepath="$PROJECT_DIR$/06.Reflection/06.Reflection.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java OOP.iml" filepath="$PROJECT_DIR$/Java OOP.iml" />
     </modules>
   </component>
