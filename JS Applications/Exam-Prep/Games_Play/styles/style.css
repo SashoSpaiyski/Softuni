@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import "typography.css";
 @import "details.css";
 @import "login-register.css";
@@ -5,4 +6,13 @@
 @import "welcome.css";
 @import "all-games.css";
 @import "navigation.css";
+=======
+@import "typography.css";
+@import "details.css";
+@import "login-register.css";
+@import "create-edit.css";
+@import "welcome.css";
+@import "all-games.css";
+@import "navigation.css";
+>>>>>>> b784f9252f16cdbfa9606cbc4e8408d538877fdf
 @import "comments.css";

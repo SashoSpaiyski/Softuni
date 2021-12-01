@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .footer {
     position: fixed;
     left: 0;
@@ -6,4 +7,14 @@
     background-color: #333333;
     color: white;
     text-align: center;
+=======
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+>>>>>>> b784f9252f16cdbfa9606cbc4e8408d538877fdf
 }
