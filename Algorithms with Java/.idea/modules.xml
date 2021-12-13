@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/01.Recursion/01.Recursion.iml" filepath="$PROJECT_DIR$/01.Recursion/01.Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02.Recursion-and-Combinatorical-algorithms-exercise/02.Recursion-and-Combinatorical-algorithms-exercise.iml" filepath="$PROJECT_DIR$/02.Recursion-and-Combinatorical-algorithms-exercise/02.Recursion-and-Combinatorical-algorithms-exercise.iml" />
       <module fileurl="file://$PROJECT_DIR$/Algorithms with Java.iml" filepath="$PROJECT_DIR$/Algorithms with Java.iml" />
     </modules>
   </component>
