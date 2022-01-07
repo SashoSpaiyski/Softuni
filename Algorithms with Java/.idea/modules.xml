@@ -5,6 +5,12 @@
       <module fileurl="file://$PROJECT_DIR$/01.Recursion/01.Recursion.iml" filepath="$PROJECT_DIR$/01.Recursion/01.Recursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/02.Recursion-and-Backtracking/02.Recursion-and-Backtracking.iml" filepath="$PROJECT_DIR$/02.Recursion-and-Backtracking/02.Recursion-and-Backtracking.iml" />
       <module fileurl="file://$PROJECT_DIR$/03.Recursion-and-Combinatorical-algorithms-exercise/03.Recursion-and-Combinatorical-algorithms-exercise.iml" filepath="$PROJECT_DIR$/03.Recursion-and-Combinatorical-algorithms-exercise/03.Recursion-and-Combinatorical-algorithms-exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04.Searching-Sorting-and-Greedy-Algorithms/04.Searching-Sorting-and-Greedy-Algorithms.iml" filepath="$PROJECT_DIR$/04.Searching-Sorting-and-Greedy-Algorithms/04.Searching-Sorting-and-Greedy-Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05.Graph-Theory-Traversal-and-Shortest-Paths/05.Graph-Theory-Traversal-and-Shortest-Paths.iml" filepath="$PROJECT_DIR$/05.Graph-Theory-Traversal-and-Shortest-Paths/05.Graph-Theory-Traversal-and-Shortest-Paths.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06.Graph-Theory-Traversal-and-Shortest-Paths-exercise/06.Graph-Theory-Traversal-and-Shortest-Paths-exercise.iml" filepath="$PROJECT_DIR$/06.Graph-Theory-Traversal-and-Shortest-Paths-exercise/06.Graph-Theory-Traversal-and-Shortest-Paths-exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07.Introduction-to-Dynamic-Programming/07.Introduction-to-Dynamic-Programming.iml" filepath="$PROJECT_DIR$/07.Introduction-to-Dynamic-Programming/07.Introduction-to-Dynamic-Programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08.Dynamic-Programming-exercise/08.Dynamic-Programming-exercise.iml" filepath="$PROJECT_DIR$/08.Dynamic-Programming-exercise/08.Dynamic-Programming-exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09.Exam-Preparation/09.Exam-Preparation.iml" filepath="$PROJECT_DIR$/09.Exam-Preparation/09.Exam-Preparation.iml" />
       <module fileurl="file://$PROJECT_DIR$/Algorithms with Java.iml" filepath="$PROJECT_DIR$/Algorithms with Java.iml" />
     </modules>
   </component>
