@@ -1,10 +1,9 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
-public class MaximumTasks {
+public class Pipelines {
     private static boolean[][] graph;
     private static int[] parents;
     private static int source;
@@ -19,7 +18,7 @@ public class MaximumTasks {
 
         while (!queue.isEmpty()) {
             int node = queue.poll();
-            for (int child = graph[node].length - 1; child >= 0; --child)
+            for (int child = graph[node].length-1; child >= 0; child--)
                 if (graph[node][child] && !visited[child]) {
                     visited[child] = true;
                     parents[child] = node;
@@ -34,27 +33,49 @@ public class MaximumTasks {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         int persons = Integer.parseInt(bf.readLine());
         int tasks = Integer.parseInt(bf.readLine());
-        int nodes = persons + tasks + 2;//first persons then tasks
-        source = nodes - 2;//node before last
-        sink = nodes - 1;//last node
+        int nodes = persons + tasks + 2;
+        source = nodes - 2;
+        sink = nodes - 1;
         graph = new boolean[nodes][nodes];
         parents = new int[nodes];
         parents[source] = -1;
-        //read task/person table
-        for (int i = 0; i < persons; ++i) {
-            String line = bf.readLine();
+
+        String[] agents= new String[persons];
+        String[] pipelines = new String[tasks];
+        for (int i = 0; i < agents.length; i++) {
+            agents[i]=bf.readLine();
+        }
+        for (int i = 0; i < pipelines.length; i++) {
+            pipelines[i]=bf.readLine();
+        }
+        Map<Integer, List<String>> map = new HashMap<>();
+        for (int i = 0; i < persons; i++) {
+            map.put(i, new ArrayList<>());
+            String[] tokens = bf.readLine().split(", ");
+            for (int j = 1; j < tokens.length; j++) {
+                map.get(i).add(tokens[j]);
+            }
+        }
+        for (int i = 0; i < agents.length; ++i) {
+            String yn="";
+            for (int j = 0; j < pipelines.length; j++) {
+                if (map.get(i).contains(pipelines[j])){
+                    yn+="Y";
+                }else{
+                    yn+="N";
+                }
+            }
             for (int j = 0; j < tasks; ++j)
-                if (line.charAt(j) == 'Y')
+                if (yn.charAt(j) == 'Y')
                     graph[i][persons + j] = true;
         }
-        //add source to persons edges
+
         for (int i = 0; i < persons; ++i)
             graph[source][i] = true;
-        //add tasks to sink edges
+
         for (int i = 0; i < tasks; ++i)
             graph[persons + i][sink] = true;
 
-        //Edmonds-Karp
         while (bfs()) {
             int node = sink;
             while (node != source) {
@@ -65,12 +86,12 @@ public class MaximumTasks {
         }
 
         StringBuilder result = new StringBuilder(16384);
-        for (int i = 0; i < persons; ++i)
-            for (int j = 0; j < tasks; ++j)
-                if (graph[persons + j][i])//back edge from j-th task to i-th person, so there is flow there
-                    result.append((char) ('A' + i)).append('-').append(j + 1).append('\n');//j -> j+1, renumber tasks
+        for (int i = 0; i < tasks; ++i)
+            for (int j = 0; j < persons; ++j)
+                if (graph[persons + j][i])
+                    result.append((agents[i])).append(" - ").append(pipelines[j]).append('\n');
 
-        System.out.println(result);
+        System.out.print(result);
 
         bf.close();
     }
