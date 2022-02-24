@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01.Graphs-Topological-Sorting-MST/01.Graphs-Topological-Sorting-MST.iml" filepath="$PROJECT_DIR$/01.Graphs-Topological-Sorting-MST/01.Graphs-Topological-Sorting-MST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02.Graphs-Bellman-Ford-Longest-path-in-DAG/02.Graphs-Bellman-Ford-Longest-path-in-DAG.iml" filepath="$PROJECT_DIR$/02.Graphs-Bellman-Ford-Longest-path-in-DAG/02.Graphs-Bellman-Ford-Longest-path-in-DAG.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03.Graphs-Bellman-Ford-Longest-path-in-DAG-exercise/03.Graphs-Bellman-Ford-Longest-path-in-DAG-exercise.iml" filepath="$PROJECT_DIR$/03.Graphs-Bellman-Ford-Longest-path-in-DAG-exercise/03.Graphs-Bellman-Ford-Longest-path-in-DAG-exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04.Graphs-Strongly-Connected-Components-MaxFlow/04.Graphs-Strongly-Connected-Components-MaxFlow.iml" filepath="$PROJECT_DIR$/04.Graphs-Strongly-Connected-Components-MaxFlow/04.Graphs-Strongly-Connected-Components-MaxFlow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05.Graphs-Strongly-Connected-Components-MaxFlow-exercise/05.Graphs-Strongly-Connected-Components-MaxFlow-exercise.iml" filepath="$PROJECT_DIR$/05.Graphs-Strongly-Connected-Components-MaxFlow-exercise/05.Graphs-Strongly-Connected-Components-MaxFlow-exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06.Dynamic-Programming-Advanced/06.Dynamic-Programming-Advanced.iml" filepath="$PROJECT_DIR$/06.Dynamic-Programming-Advanced/06.Dynamic-Programming-Advanced.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07.Dynamic-Programming-Advanced-Exercise/07.Dynamic-Programming-Advanced-Exercise.iml" filepath="$PROJECT_DIR$/07.Dynamic-Programming-Advanced-Exercise/07.Dynamic-Programming-Advanced-Exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08.Advanced-exam-prep/08.Advanced-exam-prep.iml" filepath="$PROJECT_DIR$/08.Advanced-exam-prep/08.Advanced-exam-prep.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09.Exam/09.Exam.iml" filepath="$PROJECT_DIR$/09.Exam/09.Exam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algorithms Advanced with Java.iml" filepath="$PROJECT_DIR$/Algorithms Advanced with Java.iml" />
+    </modules>
+  </component>
+</project>
