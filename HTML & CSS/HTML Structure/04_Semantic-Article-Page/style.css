@@ -1,0 +1,19 @@
+body {
+    padding: 5px 15px;
+    background-color: #5c6e91;
+}
+
+section article p {
+    font-style: italic;
+}
+
+article {
+    margin: 15px 10px;
+    border: 1px solid #b2ad7d;
+    background-color: #f2f4c0;
+}
+
+section article span {
+    font-size: 30px;
+    font-weight: bold;
+}
